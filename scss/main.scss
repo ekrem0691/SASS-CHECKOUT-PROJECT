@@ -1,0 +1,28 @@
+@import "../scss/base/reset";
+@import "./abstarcts/mixin",
+"./abstarcts/variables";
+@import "./components/footer",
+"./components/nav",
+"./components/responsive";
+@import "./pages/about",
+"./pages/contact",
+"./pages/home",
+"./pages/project";
+body {
+    color: $text-color;
+    background-color: $primary-color;
+    height: 100vh;
+    font-family: $font-family;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+}
